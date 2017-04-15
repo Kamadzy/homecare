@@ -37,7 +37,7 @@ body{
 
 /*----------main-content----------*/
 
-#main-content{
+.main-content{
     background-image: url(../img/home_background-2.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
