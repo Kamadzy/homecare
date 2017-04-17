@@ -1,10 +1,11 @@
-body{
+body {
     background: #fff;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #000;
 }
-textarea{
+
+textarea {
     resize: none;
 }
 
@@ -14,23 +15,28 @@ textarea{
     float: left;
     height: 100px;
 }
-.navbar{
+
+.navbar {
     background: #fff;
     border-bottom: 0;
 }
-.navbar-nav{
+
+.navbar-nav {
     text-decoration: none;
     margin-top: 20px;
 }
-.navbar-default .navbar-nav li a{
+
+.navbar-default .navbar-nav li a {
     color: black;
     font-weight: 600;
 }
-.navbar-default .navbar-nav li a:hover{
+
+.navbar-default .navbar-nav li a:hover {
     color: orange;
     transition: 0.3s;
 }
-.nav-text-big{
+
+.nav-text-big {
     padding: 15px 25px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -40,47 +46,53 @@ textarea{
 
 /*----------main-content----------*/
 
-.main-content{
+.main-content {
     background-image: url(/img/home_background-2.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-bottom: 50px;
 }
-.phone-img{
+
+.phone-img {
     width: 80%;
     height: auto;
     float: right;
 }
-.main-content-right{
+
+.main-content-right {
     margin-top: 30%;
 }
 
-.main-h1{
+.main-h1 {
     color: #fff;
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
 }
-.main-h3{
+
+.main-h3 {
     color: #fff;
     margin: 30px 0;
     font-weight: 600;
 }
-.download-btn{
+
+.download-btn {
     width: 35%;
     padding: 3px;
 }
+
 /*----------carousel----------*/
-.carousel{
+.carousel {
     margin: 40px 50px;
 }
-.carousel-slick img{
+
+.carousel-slick img {
     width: 65%;
 }
 
 /*----------footer----------*/
-.footer{
-    /*float: bottom;*/
+.footer {
+    /float: bottom;
     width: 100%;
     height: 130px;
     bottom: 0;
@@ -88,16 +100,19 @@ textarea{
     clear: both;
 
 }
-.footer-text{
+
+.footer-text {
     text-align: center;
     font-weight: 600;
     font-size: 20px;
 }
-.soc-btn-group{
+
+.soc-btn-group {
     text-align: center;
     margin-bottom: 10px;
 }
-.soc-btn{
+
+.soc-btn {
     vertical-align: middle !important;
     border-radius: 20px;
     border-color: #b8c1c2;
@@ -110,25 +125,26 @@ textarea{
     font-size: 140%;
     padding-left: 9px;
 }
-.soc-btn:hover{
+
+.soc-btn:hover {
     background-color: orange;
     transition: all 0.2s ease-in-out;
     transform: scale(1.2);
 }
-/*---------- contact-form ----------*/
-.contact-main{
 
+/*---------- contact-form ----------*/
+.contact-main {
     font-family: 'Teko', sans-serif;
     padding-top: 60px;
     width: 100%;
     height: 550px;
-    background: #3a6186; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color : #fff;
+    background: #3a6186;
+    background: -webkit-linear-gradient(to left, #3a6186, #89253e);
+    background: linear-gradient(to left, #3a6186, #89253e);
+    color: #fff;
 }
 
-label{
+label {
     font-size: 1.3em;
     line-height: 1em;
     font-weight: normal;

@@ -1,20 +1,20 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $('.carousel-slick').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
         dots: false,
-});
+    });
 
-    $('#form-group').submit(function(e){
+    $('#form-group').submit(function (e) {
         var subject = document.getElementById('subject');
         var name = document.getElementById('name');
         var message = document.getElementById('message');
 
-        if(!subject.value || !name.value || !message.value){
+        if (!subject.value || !name.value || !message.value) {
             alert("Check your entries");
-        }else{
+        } else {
             $.ajax({
                 method: 'POST',
                 url: '//formspree.io/kam4513@gmail.com',
@@ -26,6 +26,8 @@ $(document).ready(function(){
             alert("Message sent");
         }
 
-    })
+    });
+
+    $("#phone-img").hide().fadeIn(1000);
 
 });
