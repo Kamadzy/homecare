@@ -38,11 +38,23 @@
         <!-- /.container-fluid -->
     </nav>
 </header>
-<div class="blog-main">
+<div class="contact-main">
     <div class="container">
         <div class="row">
-            <h1>The blog is not working now</h1>
-            <h3>Sorry for the inconvenience</h3>
+            <form class="col-md-8">
+                <div class="form-group">
+                    <label for="subject">Letter subject</label>
+                    <input type="text" id="subject" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" class="form-control"/></div>
+                <div class="form-group">
+                    <label for="message" class="col-sm-2 control-label">Message</label>
+                    <textarea class="form-control" rows="4" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-default">Send</button>
+            </form>
         </div>
     </div>
 </div>

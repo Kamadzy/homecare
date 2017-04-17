@@ -4,6 +4,9 @@ body{
     font-size: 14px;
     color: #000;
 }
+textarea{
+    resize: none;
+}
 
 /*----------header----------*/
 
@@ -68,7 +71,7 @@ body{
     padding: 3px;
 }
 /*----------carousel----------*/
-#carousel{
+.carousel{
     margin: 40px 50px;
 }
 .carousel-slick img{
@@ -77,9 +80,13 @@ body{
 
 /*----------footer----------*/
 .footer{
-    position: fixed;
+    /*float: bottom;*/
     width: 100%;
+    height: 130px;
     bottom: 0;
+    position: relative;
+    clear: both;
+
 }
 .footer-text{
     text-align: center;
