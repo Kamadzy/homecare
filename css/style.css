@@ -92,13 +92,12 @@ textarea {
 
 /*----------footer----------*/
 .footer {
-    /float: bottom;
+    float: bottom;
     width: 100%;
     height: 130px;
     bottom: 0;
-    position: relative;
+    /*position: absolute;*/
     clear: both;
-
 }
 
 .footer-text {
