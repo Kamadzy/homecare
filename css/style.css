@@ -38,7 +38,7 @@ body{
 /*----------main-content----------*/
 
 .main-content{
-    background-image: url(../img/home_background-2.png);
+    background-image: url(/img/home_background-2.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-bottom: 50px;
@@ -76,6 +76,11 @@ body{
 }
 
 /*----------footer----------*/
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
 .footer-text{
     text-align: center;
     font-weight: 600;
